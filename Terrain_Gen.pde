@@ -1,10 +1,3 @@
-//import controlP5.*;
-
-//ControlP5 cp5;
-
-//float sliderValue = 0.025;
-//Slider abc;
-
 int cols, rows;
 int scl = 20;
 int w = 1000;
@@ -25,14 +18,6 @@ void setup(){
   cols = w/scl;
   rows = h/scl;
   terrain = new float [cols][rows];
-  //noStroke();
-  //cp5 = new ControlP5(this);
-  //cp5.addSlider("speedSliderValue")
-  //   .setPosition(10,800)
-  //   .setSize(100, 200)
-  //   .setRange(0.001, 0.099)
-  //   .setValue(0.025)
-  //   ;
   
   //frameRate(1);
 }
